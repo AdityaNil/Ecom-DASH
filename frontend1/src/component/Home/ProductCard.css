@@ -1,0 +1,48 @@
+/* .productCard {
+    height: 30vmax;
+} */
+
+.productCard {
+    width: 14vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb((48), 48, 48);
+    margin: 2vmax;
+    transition: all 0.4s;
+    padding-bottom: 0.5vmax;
+    border: 1px solid rgb(254 210 209);
+    border-radius: 6px;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+.productCard > img {
+    width: 20vmax;
+    height: 14vmax;
+}
+
+.productCard > div > span {
+    font-size: 10px;
+    position: relative;
+    top: -6px;
+}
+
+.productCard > span {
+    color: tomato;
+    font-size: small;
+    font-weight: 300;
+    margin: 0;
+}
+
+.productCard:hover {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+    transform: translateY(-1.5vmax);
+}
+
+.productCard > p {
+    font-family: "Krona One";
+    font-size: 10px;
+}

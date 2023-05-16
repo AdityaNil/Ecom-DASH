@@ -1,0 +1,29 @@
+.brand-logo {
+    width: 210px;
+    position: absolute;
+    top: -10px;
+    left: -60px;
+    filter: invert(1);
+}
+
+nav {
+    font: 400 28px "Krona One";
+    color: #ececec;
+    position: relative;
+    z-index: 999;
+    background-color: transparent !important;
+    margin: 0 !important;
+    padding: 25px 0px !important;
+    /* margin: auto !important; */
+}
+
+.options {
+    position: relative;
+    left: 350px;
+}
+
+.nav-box {
+    height: 80px;
+    background-color: rgb(24, 85, 129) !important;
+    margin: 0 0 40px;
+}
