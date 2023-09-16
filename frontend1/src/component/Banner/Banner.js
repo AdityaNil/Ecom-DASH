@@ -23,7 +23,7 @@ const Banner = () => {
                         className="h-1/2 w-1/2 relative -scale-x-100 ml-96"
                         alt="leaf-img"
                     />
-                </div>
+                </div> 
             </div>
         </>
     );
